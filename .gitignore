@@ -1,0 +1,10 @@
+.vs/
+.idea/
+**/bin/
+**/obj/
+ERPContable.Web/node_modules/
+ERPContable.Web/dist/
+**/.env
+**/appsettings.Local.json
+artifacts/
+DomainentitiesAuditLog.cs

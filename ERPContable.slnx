@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="ERPContable.API/ERPContable.API.csproj" />
+  <Project Path="ERPContable.Application/ERPContable.Application.csproj" />
+  <Project Path="ERPContable.Domain/ERPContable.Domain.csproj" />
+  <Project Path="ERPContable.Desktop/ERPContable.Desktop.csproj" />
+  <Project Path="ERPContable.Infrastructure/ERPContable.Infrastructure.csproj" />
+  <Project Path="ERPContable.Persistence/ERPContable.Persistence.csproj" />
+  <Project Path="ERPContable.Tests/ERPContable.Tests.csproj" />
+</Solution>

@@ -1,0 +1,6 @@
+@ERPContable.API_HostAddress = http://localhost:5255
+
+GET {{ERPContable.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

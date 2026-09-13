@@ -1,0 +1,28 @@
+.correction-dialog { width: min(780px, calc(100vw - 32px)); max-height: calc(100dvh - 32px); padding: 24px; border: 1px solid var(--border); border-radius: 12px; color: var(--navy); background: var(--surface, #fff); overflow-y: auto; box-sizing: border-box; }
+.correction-dialog::backdrop { background: rgb(10 27 50 / 55%); }
+.correction-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+.correction-heading h2 { margin: 0; font-size: 1.35rem; }
+.correction-heading p, .correction-history p { overflow-wrap: anywhere; }
+.correction-summary { display: flex; flex-wrap: wrap; gap: 12px 20px; padding: 16px 0; border-bottom: 1px solid var(--border); }
+.correction-fields { border: 0; padding: 16px 0; margin: 0; min-width: 0; }
+.correction-fields legend { padding-top: 20px; font-weight: 700; }
+.correction-form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.correction-form-grid label, .correction-reason { display: grid; gap: 8px; }
+.correction-lines { display: grid; gap: 8px; margin: 12px 0 20px; }
+.correction-line { display: grid; grid-template-columns: minmax(0, 1fr) 160px; align-items: center; gap: 16px; padding: 12px; background: var(--surface-soft, #f5f8fc); border: 1px solid var(--border); border-radius: 6px; }
+.correction-line small { display: block; margin-top: 6px; }
+.correction-line strong { overflow-wrap: anywhere; }
+.correction-line input { width: 100%; margin-top: 6px; }
+.correction-confirm { display: flex; align-items: flex-start; gap: 12px; margin-top: 20px; }
+.correction-confirm input { width: 20px; height: 20px; min-height: 20px; flex: 0 0 20px; margin: 2px 0 0; padding: 0; }
+.correction-dialog .correction-danger { color: #a32232; border-color: #a32232; }
+.correction-history { border-top: 1px solid var(--border); padding-top: 16px; }
+.correction-history article { border-bottom: 1px solid var(--border); padding: 12px 0; }
+.correction-history p { margin: 6px 0; }
+.correction-history ul { padding-left: 22px; }
+@media (max-width: 600px) {
+  .correction-dialog { padding: 16px; }
+  .correction-form-grid, .correction-line { grid-template-columns: 1fr; }
+  .correction-heading h2 { font-size: 1.1rem; }
+  .correction-dialog .form-actions button { width: 100%; }
+}

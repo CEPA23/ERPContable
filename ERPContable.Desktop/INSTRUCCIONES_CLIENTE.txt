@@ -1,0 +1,21 @@
+ERP CONTABLE - DEMOSTRACION PARA WINDOWS
+========================================
+
+1. Extraiga todo el contenido del archivo ZIP a una carpeta.
+2. Abra ERPContable.exe.
+3. En el primer inicio, seleccione "Crear cuenta" y registre un usuario.
+4. Se cargarán automáticamente datos ficticios de Comercial Andina S.A.C.
+
+No necesita instalar PostgreSQL, Docker, Node.js ni .NET.
+
+La información se guarda únicamente en esta computadora, en:
+%LOCALAPPDATA%\ERPContable\Data\erpcontable.db
+
+IMPORTANTE
+----------
+- No mueva solamente el EXE: conserve todos los archivos y carpetas del paquete.
+- Esta edición usa SQLite y está pensada para demostración o uso individual.
+- Windows debe tener Microsoft Edge WebView2 Runtime. Normalmente ya viene
+  instalado en Windows 10 y Windows 11.
+- Para respaldar la información, cierre ERP Contable y copie el archivo
+  erpcontable.db indicado arriba.
